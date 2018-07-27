@@ -15,6 +15,8 @@
 1. going to the root url of localhost:8000 should display the react app
 1. going to routes such as /api or /admin should load the correct django apps
 
+# How to set up a new project of your own
+
 ## project setup
 1. create virtual environment and install django into it
 1. create django project
