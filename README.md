@@ -1,5 +1,20 @@
 # django-react attempt 2
 
+## how to setup dev environment
+1. clone down this git repo
+1. create a virtual environment with the following packages
+- django
+- djangorestframework
+- django-webpack-loader
+1. make sure you are in the virtual environment while developing on this app
+1. if you haven't yet, run makemigrations and migrate models for the api app
+1. for the front end react cd into the 'frontend' directory
+1. run npm install to get dependecies for the react project
+1. run npm start in the frontend directory and make sure the react server is running on port 3000
+1. cd into root directory and run the django server on port 8000
+1. going to the root url of localhost:8000 should display the react app
+1. going to routes such as /api or /admin should load the correct django apps
+
 ## project setup
 1. create virtual environment and install django into it
 1. create django project
